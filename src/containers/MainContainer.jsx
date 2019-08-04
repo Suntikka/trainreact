@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import SourceOfData from '../views/SourceOfData';
 import TrainTable from '../views/TrainTable';
 import trainActions from '../actions/trainActions';
 
@@ -18,9 +19,12 @@ class MainContainer extends Component {
   render() {
     const { allTrains } = this.props;
     return (
-      <TrainTable
-        trains={allTrains}
-      />
+      <Fragment>
+        <TrainTable
+          trains={allTrains}
+        />
+        <SourceOfData />
+      </Fragment>
     );
   }
 }
