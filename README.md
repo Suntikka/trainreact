@@ -7,3 +7,6 @@ Quick showcase how I would construct a react project. Done in a hurry so stuff l
 ´npm build´ to build.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+Liikennetietojen lähde Traffic Management Finland / digitraffic.fi, lisenssi CC 4.0 BY
